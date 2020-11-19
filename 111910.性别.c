@@ -10,4 +10,7 @@ else if(i==0)
 {
 printf("女");
 }
+else {
+printf("输入有误，请重新输入");
+}
 }
