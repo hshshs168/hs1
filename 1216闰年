@@ -1,0 +1,20 @@
+#include<stdio.h>
+void main(){
+        int a;
+        scanf("%d",&a);
+        if(a>=1900&&a<=2000){
+
+            if((a%400==0&&a%100==0)||(a%4==0&&a%100!=0))
+            {
+            printf("是闰年");
+            }
+
+            else{
+            printf("不是闰年");
+            }
+       }
+
+        else {
+        printf("输入不成立");
+        }
+}
